@@ -1,0 +1,35 @@
+.bg-navbar {
+    background: rgb(104, 84, 235);
+    background: -moz-linear-gradient(90deg, rgba(104, 84, 235, 1) 0%, rgba(72, 90, 245, 1) 50%);
+    background: -webkit-linear-gradient(90deg, rgba(104, 84, 235, 1) 0%, rgba(72, 90, 245, 1) 50%);
+    background: linear-gradient(90deg, rgba(104, 84, 235, 1) 0%, rgba(72, 90, 245, 1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6854eb", endColorstr="#485af5", GradientType=1);
+}
+
+.nav-menu-container {
+    margin-bottom: -8px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu {
+    font-weight: 400;
+    border-radius: 4px;
+}
+.nav-menu:hover {
+    background-color: #00C851;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav-menu-container {
+        display: block;
+    }
+
+    .nav-menu {
+        text-align: center;
+    }
+
+    .nav-btn-container {
+        margin: 10px 0px;
+    }
+}
