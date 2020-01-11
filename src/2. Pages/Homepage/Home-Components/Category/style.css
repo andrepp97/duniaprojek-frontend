@@ -1,0 +1,40 @@
+.category-container {
+    padding: 80px;
+}
+
+.category-row {
+    justify-content: space-between;
+}
+
+.category-title {
+    color: rgba(255, 255, 255, 0.90);
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.category-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 11rem;
+    height: 4rem;
+    padding: 10px 16px ;
+    margin: 7px 10px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.category-card:hover {
+    color: white;
+    background-color: #00C851;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 992px) {
+    .category-row {
+        justify-content: center;
+    }
+}

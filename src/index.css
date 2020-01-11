@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:500&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Muli', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-duniaprojek {
+  background: rgb(104, 84, 235);
+  background: -moz-linear-gradient(90deg, rgba(104, 84, 235, 1) 0%, rgba(72, 90, 245, 1) 50%);
+  background: -webkit-linear-gradient(90deg, rgba(104, 84, 235, 1) 0%, rgba(72, 90, 245, 1) 50%);
+  background: linear-gradient(90deg, rgba(104, 84, 235, 1) 0%, rgba(72, 90, 245, 1) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6854eb", endColorstr="#485af5", GradientType=1);
 }

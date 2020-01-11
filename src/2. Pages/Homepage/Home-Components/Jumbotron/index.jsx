@@ -8,8 +8,8 @@ import Working from '../../../../5. Assets/illustrations/working.svg'
 
 const JumbotronPage = () => {
     return (
-        <div className="jumbotron-container">
-            <div className="row">
+        <div className="jumbotron-container bg-duniaprojek">
+            <div className="row pt-4">
                 <div className="col-md-4 offset-md-1">
                     <img src={Working} className="img-fluid p-5" alt="Working"/>
                 </div>
@@ -20,8 +20,12 @@ const JumbotronPage = () => {
                         Dengan Kebutuhan / Keahlianmu
                     </h1>
                     <div className="btn-container">
-                        <MDBBtn color="blue" className="rounded">Buat Jasa</MDBBtn>
-                        <MDBBtn color="success" className="rounded">Cari Jasa</MDBBtn>
+                        <MDBBtn color="blue" className="rounded">
+                            Buat Jasa
+                        </MDBBtn>
+                        <MDBBtn color="success" className="rounded" href="#cari-jasa">
+                            Cari Jasa
+                        </MDBBtn>
                     </div>
                 </div>
                 

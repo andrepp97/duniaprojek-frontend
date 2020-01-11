@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 
 // IMPORT COMPONENTS
-import Jumbotron from './Home-Components/Jumbotron/jumbotron';
+import Jumbotron from './Home-Components/Jumbotron';
+import CariJasa from './Home-Components/CariJasa';
+import Category from './Home-Components/Category';
 // IMPORT COMPONENTS
 
 class Home extends Component {
     render() {
         return (
             <div>
+
                 <Jumbotron />
 
-                <div className="container py-5">
-                    <div className="card p-5 my-5">
-                        <h1>SESUATU</h1>
-                        <h2>LOREM IPSUM</h2>
-                        <h3>YO MAMEN</h3>
-                    </div>
-                </div>
+                <CariJasa />
+
+                <Category />
+
             </div>
         );
     }

@@ -4,12 +4,6 @@
     align-items: center;
     height: 100vh;
     padding: 0px 50px;
-
-    background: rgb(104, 84, 235);
-    background: -moz-linear-gradient(90deg, rgba(104, 84, 235, 1) 0%, rgba(72, 90, 245, 1) 50%);
-    background: -webkit-linear-gradient(90deg, rgba(104, 84, 235, 1) 0%, rgba(72, 90, 245, 1) 50%);
-    background: linear-gradient(90deg, rgba(104, 84, 235, 1) 0%, rgba(72, 90, 245, 1) 50%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6854eb", endColorstr="#485af5", GradientType=1);
 }
 .jumbotron-middle {
     display: table-cell;
@@ -22,9 +16,6 @@
 }
 
 .text-container {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     padding: 48px 0px;
 }
 .jumbotron-text {
