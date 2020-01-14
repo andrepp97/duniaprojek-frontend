@@ -12,6 +12,10 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 // MDBREACT
 
+// ANIMATION
+import "animate.css/animate.min.css";
+// ANIMATION
+
 ReactDOM.render(
     <BrowserRouter>
         <App />

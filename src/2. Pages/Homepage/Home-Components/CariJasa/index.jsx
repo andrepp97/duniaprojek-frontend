@@ -15,6 +15,7 @@ const jasa = [
     { label: "Motion Design", value: 3 },
     { label: "Web Development", value: 4 }
 ]
+
 const lokasi = [
     { label: "Bandung", value: 1 },
     { label: "Jakarta", value: 2 },
@@ -23,6 +24,7 @@ const lokasi = [
     { label: "Tangerang Selatan", value: 5 }
 ]
 
+// MAIN RENDER
 const CariJasa = () => {
 
     // HOOKS

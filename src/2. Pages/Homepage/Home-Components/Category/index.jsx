@@ -40,7 +40,7 @@ const Category = () => {
                 <div className="col-xl-4 my-2">
                     <div className="card shadow my-2">
                         <div className="card-body">
-                            <h1 className="text-center">GAMBAR</h1>
+                            <h1 className="h1-responsive text-center">GAMBAR</h1>
                         </div>
                         <div className="card-footer deep-purple text-center">
                             <span className="text-white">NON-IT</span>
@@ -62,7 +62,7 @@ const Category = () => {
                 <div className="col-xl-4 my-2">
                     <div className="card shadow my-2">
                         <div className="card-body">
-                            <h1 className="text-center">GAMBAR</h1>
+                            <h1 className="h1-responsive text-center">GAMBAR</h1>
                         </div>
                         <div className="card-footer deep-purple text-center">
                             <span className="text-white">INFORMASI & TEKNOLOGI</span>

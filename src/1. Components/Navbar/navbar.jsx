@@ -6,6 +6,9 @@ import {
     MDBNavbarToggler, MDBCollapse,
     MDBBtn, MDBIcon
 } from "mdbreact";
+
+// IMPORT STYLE & IMAGES
+import Logo from '../../5. Assets/icon-logo.jpeg'
 import './style.css'
 
 class Navbar extends Component {
@@ -26,7 +29,7 @@ class Navbar extends Component {
             >
                 <MDBNavbarBrand>
                     <Link to='/' className="text-white">
-                        <strong>DUNIAPROJEK</strong>
+                        <img src={Logo} alt="" height={50} />
                     </Link>
                 </MDBNavbarBrand>
 
@@ -58,10 +61,10 @@ class Navbar extends Component {
                     </MDBNavbarNav>
 
                     <MDBNavbarNav right className="nav-btn-container">
-                        <MDBBtn outline color='white' className='px-3 py-1 rounded-pill'>
+                        <MDBBtn outline color='white' className='px-3 py-1 rounded-pill' href="/daftar">
                             Daftar
                         </MDBBtn>
-                        <MDBBtn color='elegant' className='px-3 py-1 rounded-pill'>
+                        <MDBBtn color='elegant' className='px-3 py-1 rounded-pill' href="/masuk">
                             Masuk
                         </MDBBtn>
                     </MDBNavbarNav>

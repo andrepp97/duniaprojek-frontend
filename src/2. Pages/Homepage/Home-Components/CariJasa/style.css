@@ -19,3 +19,12 @@
     margin: 40px 0px;
     border-radius: 1vh;
 }
+
+
+
+/* TRIGGERED ON 500px WIDTH */
+@media only screen and (max-width: 500px) {
+    .cari-jasa-container {
+        padding: 40px 25px;
+    }
+}
