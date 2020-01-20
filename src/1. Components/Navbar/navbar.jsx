@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import {
+    MDBNavbarToggler, MDBCollapse,
     MDBNavbar, MDBNavbarBrand,
     MDBNavbarNav, MDBNavLink,
-    MDBNavbarToggler, MDBCollapse,
-    MDBBtn, MDBIcon
+    MDBBtn, MDBIcon,
+    MDBDropdown, MDBDropdownMenu, MDBDropdownItem, MDBDropdownToggle, MDBNavItem
 } from "mdbreact";
 
 // IMPORT STYLE & IMAGES
@@ -50,11 +51,51 @@ class Navbar extends Component {
                         <div className="row border-top mt-1">
                             <div className="col-lg-12 nav-menu-container">
                                 <MDBNavLink to='/' className="nav-menu text-white">CARA KERJA</MDBNavLink>
-                                <MDBNavLink to='/' className="nav-menu text-white">PRICING</MDBNavLink>
-                                <MDBNavLink to='/' className="nav-menu text-white">FAQ</MDBNavLink>
+                                <MDBNavItem className="nav-menu">
+                                    <MDBDropdown>
+                                        <MDBDropdownToggle nav caret>
+                                            <span className="mr-1 text-white">PROYEK</span>
+                                        </MDBDropdownToggle>
+                                        <MDBDropdownMenu>
+                                            <MDBDropdownItem href="#!">Buat Proyek</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">Cari Proyek</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">Menjadi Freelancer</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">FAQ Freelancer</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">Menjadi Klien</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">FAQ Klien</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">Tentang Arbitrase</MDBDropdownItem>
+                                        </MDBDropdownMenu>
+                                    </MDBDropdown>
+                                </MDBNavItem>
+                                <MDBNavItem className="nav-menu">
+                                    <MDBDropdown>
+                                        <MDBDropdownToggle nav caret>
+                                            <span className="mr-1 text-white">PRODUK</span>
+                                        </MDBDropdownToggle>
+                                        <MDBDropdownMenu>
+                                            <MDBDropdownItem href="#!">Cari Produk</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">Jual Produk</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">Menjadi Pembeli</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">FAQ Pembeli</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">Menjadi Penjual</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">FAQ Penjual</MDBDropdownItem>
+                                        </MDBDropdownMenu>
+                                    </MDBDropdown>
+                                </MDBNavItem>
+                                <MDBNavItem className="nav-menu">
+                                    <MDBDropdown>
+                                        <MDBDropdownToggle nav caret>
+                                            <span className="mr-1 text-white">JASA</span>
+                                        </MDBDropdownToggle>
+                                        <MDBDropdownMenu>
+                                            <MDBDropdownItem href="#!">Buat Jasa</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">Cari Pengguna</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">Jual Jasa</MDBDropdownItem>
+                                            <MDBDropdownItem href="#!">FAQ Jasa</MDBDropdownItem>
+                                        </MDBDropdownMenu>
+                                    </MDBDropdown>
+                                </MDBNavItem>
                                 <MDBNavLink to='/' className="nav-menu text-white">AFILIASI</MDBNavLink>
-                                <MDBNavLink to='/' className="nav-menu text-white">TENTANG KAMI</MDBNavLink>
-                                <MDBNavLink to='/' className="nav-menu text-white">KONTAK</MDBNavLink>
                             </div>
                         </div>
                     </div>
