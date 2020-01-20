@@ -1,5 +1,6 @@
 .category-container {
     padding: 80px;
+    background: #e4f0f3;
 }
 
 .category-row {
@@ -7,7 +8,6 @@
 }
 
 .category-title {
-    color: rgba(255, 255, 255, 0.90);
     font-weight: bold;
     text-align: center;
     letter-spacing: 1px;
@@ -24,11 +24,29 @@
     padding: 10px 16px ;
     margin: 7px 10px;
     cursor: pointer;
-    transition: .3s ease;
+    transition: .25s ease-in-out;
 }
 .category-card:hover {
+    transform: translate3d(5px, -5px, 5px);
+
+    -webkit-box-shadow: 0px 0px 15px 0px rgb(95, 67, 218);
+    -moz-box-shadow: 0px 0px 15px 0px rgb(95, 67, 218);
+    box-shadow: 0px 0px 15px 0px rgb(95, 67, 218);
+    
+    background: rgb(104, 84, 235);
+    background: -moz-linear-gradient(90deg, rgba(104, 84, 235, 1) 0%, rgba(72, 90, 245, 1) 50%);
+    background: -webkit-linear-gradient(90deg, rgba(104, 84, 235, 1) 0%, rgba(72, 90, 245, 1) 50%);
+    background: linear-gradient(90deg, rgba(104, 84, 235, 1) 0%, rgba(72, 90, 245, 1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6854eb", endColorstr="#485af5", GradientType=1);
+}
+
+.category-card h6 {
+    transition: .25s ease-in-out;
+}
+.category-card:hover h6 {
     color: white;
-    background-color: #00C851;
+    font-weight: 500;
+    margin-top: 3px;
 }
 
 

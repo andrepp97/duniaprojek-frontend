@@ -9,7 +9,7 @@ const renderCategory1 = () => {
         return (
             <div
                 key={idx}
-                className="card shadow category-card"
+                className="card category-card"
             >
                 <h6 className="text-center">{val}</h6>
             </div>
@@ -22,7 +22,7 @@ const renderCategory2 = () => {
         return (
             <div
                 key={idx}
-                className="card shadow category-card"
+                className="card category-card"
             >
                 <h6 className="text-center">{val}</h6>
             </div>
@@ -32,7 +32,7 @@ const renderCategory2 = () => {
 
 const Category = () => {
     return (
-        <div className="category-container bg-duniaprojek">
+        <div className="category-container">
             <h2 className="h2-responsive category-title">KATEGORI POPULER</h2>
 
             {/* NON-IT CATEGORY */}
