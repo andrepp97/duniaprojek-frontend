@@ -105,8 +105,8 @@ class Navbar extends Component {
                         <MDBBtn outline color='white' className='px-3 py-1 rounded-pill' href="/daftar">
                             Daftar
                         </MDBBtn>
-                        <MDBBtn color='elegant' className='px-3 py-1 rounded-pill' href="/masuk">
-                            Masuk
+                        <MDBBtn outline color='elegant' className='px-3 py-1 rounded-pill' href="/masuk">
+                            <span className="text-white">Masuk</span>
                         </MDBBtn>
                     </MDBNavbarNav>
                 </MDBCollapse>

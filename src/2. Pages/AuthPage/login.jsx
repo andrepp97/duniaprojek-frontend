@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { MDBInput, MDBBtn } from "mdbreact";
 
 // IMPORT STYLE & IMAGES
@@ -8,13 +9,13 @@ import './style.css';
 class Login extends Component {
     render() {
         return (
-            <div className="py-5">
+            <div className="auth-wrapper">
 
-                <div className="signup-container pt-5">
+                <div className="auth-container">
 
                     {/* SIGNUP CARD */}
                     <div className="col-lg-8 offset-lg-2">
-                        <div className="signup-card">
+                        <div className="auth-card">
                             <div className="row">
 
                                 {/* SIGNUP FORM */}
@@ -30,6 +31,11 @@ class Login extends Component {
                                                 MASUK
                                             </MDBBtn>
                                         </div>
+                                    </div>
+                                    <div className="text-center mt-4">
+                                        <Link to="/lupa-password" className="border shadow-sm px-2 py-1 text-danger">
+                                            Lupa Password
+                                        </Link>
                                     </div>
                                 </div>
                                 {/* SIGNUP FORM */}

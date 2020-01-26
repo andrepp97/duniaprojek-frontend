@@ -8,13 +8,13 @@ import './style.css';
 class Signup extends Component {
     render() {
         return (
-            <div className="py-5">
+            <div className="auth-wrapper">
 
-                <div className="signup-container pt-5">
+                <div className="auth-container">
 
                     {/* SIGNUP CARD */}
                     <div className="col-lg-8 offset-lg-2">
-                        <div className="signup-card">
+                        <div className="auth-card">
                             <div className="row">
 
                                 {/* SIGNUP FORM */}

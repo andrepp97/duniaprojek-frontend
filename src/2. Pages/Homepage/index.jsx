@@ -15,6 +15,13 @@ class Home extends Component {
 
                 <CariJasa />
 
+                {/* DIVIDER */}
+                <div style={{ background: '#f7f7f7', padding: '0 80px' }}>
+                    <hr className="my-0" />
+                    <hr className="my-0" />
+                </div>
+                {/* DIVIDER */}
+
                 <Category />
 
             </div>

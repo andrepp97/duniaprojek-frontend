@@ -100,7 +100,7 @@ const CariJasa = () => {
                     {/* RANGE HARGA */}
 
                     {/* SELECT LOKASI */}
-                    <div className="col-lg-4 my-3  pt-3">
+                    <div className="col-lg-4 mt-4 pt-1">
                         <MDBBtn color="success" className="rounded btn-block">
                             CARI
                         </MDBBtn>
